@@ -25,7 +25,7 @@ jobs:
 
       - name: Setup Node.js
         id: setup-node
-        uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
+        uses: actions/setup-node@26961cf329f22f6837d5f54c3efd76b480300ace # v4.0.1
         with:
           node-version-file: .node-version
           cache: npm
